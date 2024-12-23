@@ -1,4 +1,4 @@
-#Formulário em React
+## Formulário em React
 
 Esse projeto é uma prática de estudos sobre REACT utilizando de formulário.
 
