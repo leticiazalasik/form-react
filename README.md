@@ -11,5 +11,5 @@ Esse projeto é uma prática de estudos sobre REACT utilizando de formulário.
 🔹 Card: Header, Content (conteúdo principal do cartão), Footer.
 
 
-👨‍💻️ Tecnologias Utilizadas:
+### 👨‍💻️ Tecnologias Utilizadas:
 Vscode - Next, Node, Tailwind, React, Typescript, CSS, Google Fonts
