@@ -1,14 +1,11 @@
-## Carrinho de compras com React (c/ dark mode)
+#Formulário em React
 
-Esse projeto é uma prática de estudos sobre REACT.
+Esse projeto é uma prática de estudos sobre REACT utilizando de formulário.
 
-🔹 CartContext: foram definindas as interfaces para product, CartItem, CartContextType. Foram construídas as funções: adicionar item ao carrinho, remover item, atualizar a quantidade de um item, limpar o carrinho e total do valor do carrinho. Retorna o Provider com o valor do contexto (items, funções de manipulação, e total). 
+🔹 Page: página de bem-vindo com botão para redirecionar ao formulário de cadastro.
+🔹 SignupForm: componente de formulário de cadastro: definição do formato dos dados do formulário; definição do estado para armazenar erros do formulário; definição do estado para verificar se está carregando (em processamento); definição do estado para o status de envio (sucesso, erro ou nulo). Função de validação do formulário(nome é obrigatório e precisa ter pelo menos 3 carteres, validação do campo 'email e cpf com regex, validação do campo 'password' como obrigatório e pelo menos 6 caracteres e verifica se senha e confirmação de senha são realmente iguais); função que limpa o formulário após sucesso no envio e por fim, renderiza o componente de formulário com validação, campos de entrada e mensagens de erro (alerts).
+🔹 Alert: formto das mesangens de alert com configuração de estilo.
+🔹 Card: Header, Content (conteúdo principal do cartão), Footer.
 
-🔹 Componentes carrinho e produtos com seu retorno de HTML para visualização. 
-
-🔹 Dark mode: botão e funçoes que alteram o tema para dark ou light mode. 
-
-
-
-### 👨‍💻️ Tecnologias Utilizadas:
+###👨‍💻️ Tecnologias Utilizadas:
 Vscode - Next, Node, Tailwind, React, Typescript, CSS, Google Fonts
